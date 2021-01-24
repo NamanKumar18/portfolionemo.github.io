@@ -1,0 +1,234 @@
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+
+}        
+:root {
+    --ff-pri: 'Source Sans Pro', sans-serif;
+    --ff-sec: 'Source Code Pro', monospace;
+        
+    --fw-reg: 300;
+    --fw-bold: 900;
+            
+    --clr-dark: #343148FF;
+    --clr-light: #D7C49EFF;
+    --clr-lighter: rgb(239, 242, 215);
+    --clr-darker: rgb(237, 255, 134);
+    --clr-white: #ffffff;
+
+    --fs-h1: 2.25rem;
+    --fs-h2: 1.75rem;
+    --fs-h3: 1.25rem;
+    --fs-body: 1rem;
+}
+    
+@media (min-width: 1600px) {
+    :root {
+        --fs-h1: 3.75rem;
+        --fs-h2: 2.5rem;
+        --fs-h3: 1.5rem;        
+        --fs-body: 1.125rem;
+
+    }
+}
+
+body{
+    background: var(--clr-lighter);    
+    color: var(--clr-dark);
+    font-family: var(--ff-pri);
+    font-size: var(--fs-body);
+    line-height: 1.6;
+    margin:0;
+
+}
+
+section {
+    padding: 7.5em 5em;
+}
+
+img {
+    display: block;
+    max-width: 100%;   
+}
+
+h1,
+h2,
+h3 {
+    line-height: 1.1;
+    margin: 0;
+}
+
+h1 { font-size: var(--fs-h1) }
+h2 { font-size: var(--fs-h2) }
+h3 { font-size: var(--fs-h3) }
+
+.section__photo{
+    margin-bottom: 0.5cm;
+    margin-top: 0.5cm;
+}
+.section__subtitle--intro1{
+    background: var(--clr-white);
+    font-family: var(--ff-sec);
+    margin-top: 0.1mm;
+    margin-bottom: 0.1mm;
+    position: relative;
+    bottom: 20px;
+    margin-right: 20.7cm;
+
+}
+.section__subtitle--intro2{
+    background: var(--clr-white);
+    font-family: var(--ff-sec);
+    margin-top: 0.1mm;
+    margin-bottom: 0.1mm;
+    position: relative;
+    bottom: 20px;
+    margin-left: 21.3cm;
+    
+}
+.section__subtitle--intro3{
+    background: var(--clr-white);
+    font-family: var(--ff-sec);
+    margin-top: 0.1mm;
+    margin-bottom: 0.1mm;
+    position: absolute;
+    top: 51cm;
+    margin-right: 20.7cm;
+
+    
+}
+.section__subtitle--about1{
+    background: var(--clr-darker);
+    font-family: var(--ff-sec);
+    margin-left: 5cm;
+    position: absolute;
+    top: 32.5cm;
+}
+.section__subtitle--about1a{
+    margin-left: 5cm;
+    position: absolute;
+    top: 33.5cm;
+    background: var(--clr-light);
+}
+.section__subtitle--about2{
+    background: var(--clr-darker);
+    font-family: var(--ff-sec);
+    margin-left: 3.3cm;
+    position: absolute;
+    top: 36cm;
+    left: 10cm;
+}
+.section__subtitle--about2a{
+    margin-left: 7.2cm;
+    position: absolute;
+    top: 37cm;
+    margin-right: 9cm;
+    background: var(--clr-light);
+}
+.section__subtitle--about2img{
+    position: absolute;
+    top: 34.8cm;
+    left: 25cm;
+}
+.section__subtitle--about3{
+    background: var(--clr-darker);
+    font-family: var(--ff-sec);
+    margin-left: 5cm;
+    position: absolute;
+    top: 41cm;
+}
+.section__subtitle--about3a{
+    margin-left: 5cm;
+    position: absolute;
+    top: 42cm;
+    background: var(--clr-light);
+}
+.section__subtitle--about3img{
+    position: absolute;
+    top: 40cm;
+    
+}
+.section__subtitle--about4{
+    background: var(--clr-darker);
+    font-family: var(--ff-sec);
+    margin-left: 11cm;
+    position: absolute;
+    top: 44cm;
+    left: 9.2cm;
+}
+.section__subtitle--about4a{
+    margin-left: 7cm;
+    position: absolute;
+    top: 45cm;
+    margin-right: 3.5cm;
+    background: var(--clr-light);
+}
+.section__subtitle--about4img{
+    position: absolute;
+    top: 43cm;
+    left: 25cm;
+}
+    .photo{
+        position: relative; 
+    left: 360px; 
+        bottom: 100px;
+    }
+
+    .section__subSubtitle--intro{
+        position: relative;
+        background: var(--clr-darker);
+        bottom:150px ;
+        font-family: var(--ff-sec);
+        margin-right: 97.3mm;
+        font-size: var(--fs-h2);
+    }
+    .section__subtitle--introName{
+        background: var(--clr-light);
+        font-family: var(--ff-sec);
+        position: absolute;
+        bottom: 5em;
+        margin-left: 95.2mm;
+        
+    }  
+
+    header div.left{
+        background: var(--clr-dark);
+    }
+    header nav.right a{
+        text-decoration: underline;
+        color: var(--clr-white);
+        font-family: var(--ff-pri);
+        font-size: var(--fs-h2);
+        position: relative;
+        bottom: 1.5cm;
+        left: 22.5cm;
+        margin-left: .25cm;
+    }
+   .skillsabc{
+       position: absolute;
+       top: 53cm;
+       margin-right: 15.7cm;  
+       font-family: var(--ff-sec); 
+   }
+   .mail{
+       position: absolute;
+       top: 58cm;
+       left: 26cm;
+       font-size: var(--fs-h3);
+   }
+   .linkedin{
+    position: absolute;
+    top: 59cm;
+    left: 27cm;
+    font-size: var(--fs-h3);
+   }
+.github{
+    position: absolute;
+    top: 59cm;
+    left: 30cm;
+    font-size: var(--fs-h3);
+}
+   p.bio h1,h2,h3,h4{
+       background: var(--clr-light);
+   }
